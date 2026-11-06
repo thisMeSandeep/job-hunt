@@ -1,0 +1,20 @@
+{
+  "_help": [
+    "Companies whose public job boards scripts/jobs.py fetch reads directly.",
+    "ats is one of: greenhouse, lever, ashby, workable. Add \"region\": \"eu\" for Lever boards on jobs.eu.lever.co.",
+    "The slug is the part after the board's domain, e.g. boards.greenhouse.io/<slug>, jobs.lever.co/<slug>, jobs.ashbyhq.com/<slug>, apply.workable.com/<slug>.",
+    "Find it with: python3 scripts/jobs.py detect \"Company Name\"",
+    "Filters are whole-word, case-insensitive keyword matches. Empty lists match everything.",
+    "locations_include is matched against the job's location text and remote policy. Jobs with no location always pass.",
+    "max_age_days drops postings older than this many days. 0 means no limit (recommended: long-open jobs are often still hiring)."
+  ],
+  "filters": {
+    "title_include": ["engineer", "developer"],
+    "title_exclude": ["intern", "manager", "director"],
+    "locations_include": ["remote"],
+    "max_age_days": 0
+  },
+  "companies": [
+    {"name": "Example Co", "ats": "greenhouse", "slug": "FILL IN"}
+  ]
+}

@@ -1,0 +1,15 @@
+# Personal data. Each user creates their own copy with /setup-profile.
+# The *.example.* templates stay tracked.
+profile.json
+resume_base.md
+companies.json
+
+# Job search output, specific to each user
+jobs/*
+!jobs/.gitkeep
+applications/*
+!applications/.gitkeep
+tracker.csv
+
+# OS files
+.DS_Store

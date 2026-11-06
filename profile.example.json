@@ -1,0 +1,41 @@
+{
+  "name": "FILL IN",
+  "current_employer": "FILL IN",
+  "years_experience": "FILL IN",
+  "target_roles": [
+    "FILL IN, for example: Senior Software Engineer, Frontend Engineer"
+  ],
+  "target_company_type": "FILL IN, for example: product companies, startups",
+  "locations": ["FILL IN, for example: Bangalore, Remote"],
+  "salary_expectation": "FILL IN",
+  "skills": {
+    "strong": ["FILL IN, for example: TypeScript, React, system design"],
+    "working": ["FILL IN"],
+    "learning": ["FILL IN"]
+  },
+  "experience": [
+    {
+      "company": "FILL IN",
+      "title": "FILL IN",
+      "start": "FILL IN",
+      "end": "FILL IN, or present",
+      "achievements": [
+        "FILL IN: one measurable result per line, with numbers where possible"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "FILL IN",
+      "description": "FILL IN",
+      "tech": ["FILL IN"]
+    }
+  ],
+  "education": ["FILL IN"],
+  "dealbreakers": [
+    "FILL IN, for example: onsite only outside my cities, unpaid trials, salary below my minimum"
+  ],
+  "preferences": [
+    "FILL IN, for example: team size, tech stack, domain"
+  ]
+}
